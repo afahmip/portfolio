@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text:400,700|Open+Sans:400,700&display=swap');
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#app {
+  background-color: #F8F8F9;
+  min-height: 100vh;
+}
+
+.page {
+  @include page;
+  padding-top: 6rem;
+  @include mobile {
+    padding-top: 4rem;
+  }
+}
